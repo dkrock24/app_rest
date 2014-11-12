@@ -1,0 +1,18 @@
+D:\Proyectos\SGI\Data\bin\Debug\Data.dll.config
+D:\Proyectos\SGI\Data\bin\Debug\Data.dll
+D:\Proyectos\SGI\Data\bin\Debug\Data.pdb
+D:\Proyectos\SGI\Data\obj\Debug\Datos.csprojResolveAssemblyReference.cache
+D:\Proyectos\SGI\Data\obj\Debug\Data.dll
+D:\Proyectos\SGI\Data\obj\Debug\Data.pdb
+C:\Users\k\Documents\Visual Studio 2012\Projects\APP-REST\Data\bin\Debug\Data.dll.config
+C:\Users\k\Documents\Visual Studio 2012\Projects\APP-REST\Data\bin\Debug\Data.dll
+C:\Users\k\Documents\Visual Studio 2012\Projects\APP-REST\Data\bin\Debug\Data.pdb
+C:\Users\k\Documents\Visual Studio 2012\Projects\APP-REST\Data\obj\Debug\Datos.csprojResolveAssemblyReference.cache
+C:\Users\k\Documents\Visual Studio 2012\Projects\APP-REST\Data\obj\Debug\Data.dll
+C:\Users\k\Documents\Visual Studio 2012\Projects\APP-REST\Data\obj\Debug\Data.pdb
+C:\Users\DKROCK\Documents\Visual Studio 2012\Projects\APP-REST\Data\bin\Debug\Data.dll.config
+C:\Users\DKROCK\Documents\Visual Studio 2012\Projects\APP-REST\Data\bin\Debug\Data.dll
+C:\Users\DKROCK\Documents\Visual Studio 2012\Projects\APP-REST\Data\bin\Debug\Data.pdb
+C:\Users\DKROCK\Documents\Visual Studio 2012\Projects\APP-REST\Data\obj\Debug\Datos.csprojResolveAssemblyReference.cache
+C:\Users\DKROCK\Documents\Visual Studio 2012\Projects\APP-REST\Data\obj\Debug\Data.dll
+C:\Users\DKROCK\Documents\Visual Studio 2012\Projects\APP-REST\Data\obj\Debug\Data.pdb

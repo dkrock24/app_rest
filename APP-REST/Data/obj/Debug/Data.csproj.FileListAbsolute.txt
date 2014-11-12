@@ -1,0 +1,14 @@
+c:\users\gerber\documents\visual studio 2010\Projects\SGI\Data\bin\Debug\Data.dll
+c:\users\gerber\documents\visual studio 2010\Projects\SGI\Data\bin\Debug\Data.pdb
+c:\users\gerber\documents\visual studio 2010\Projects\SGI\Data\obj\Debug\Data.dll
+c:\users\gerber\documents\visual studio 2010\Projects\SGI\Data\obj\Debug\Data.pdb
+C:\Users\Gerber\Desktop\C#\Data\bin\Debug\Data.dll
+C:\Users\Gerber\Desktop\C#\Data\bin\Debug\Data.pdb
+C:\Users\Gerber\Desktop\C#\Data\obj\Debug\Data.dll
+C:\Users\Gerber\Desktop\C#\Data\obj\Debug\Data.pdb
+D:\Proyectos\SGI\Data\bin\Debug\Data.dll.config
+D:\Proyectos\SGI\Data\bin\Debug\Data.dll
+D:\Proyectos\SGI\Data\bin\Debug\Data.pdb
+D:\Proyectos\SGI\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+D:\Proyectos\SGI\Data\obj\Debug\Data.dll
+D:\Proyectos\SGI\Data\obj\Debug\Data.pdb

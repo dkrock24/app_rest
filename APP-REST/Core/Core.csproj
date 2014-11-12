@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B7710AA4-3A3B-4EF3-9872-36771156D3C1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Core</RootNamespace>
+    <AssemblyName>Core</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class1.cs" />
+    <Compile Include="Entidades\BODEGA.cs" />
+    <Compile Include="Entidades\CARGO.cs" />
+    <Compile Include="Entidades\CIUDAD.cs" />
+    <Compile Include="Entidades\EMPLEADO.cs" />
+    <Compile Include="Entidades\INVENTARIO.cs" />
+    <Compile Include="Entidades\LISTAMATERIALES.cs" />
+    <Compile Include="Entidades\LISTAMATERIALESDETALLE.cs" />
+    <Compile Include="Entidades\LISTAPRECIOS.cs" />
+    <Compile Include="Entidades\LISTAPRECIOSDETALLE.cs" />
+    <Compile Include="Entidades\MEDIDAPRODUCTO.cs" />
+    <Compile Include="Entidades\MESA.cs" />
+    <Compile Include="Entidades\ORDEN.cs" />
+    <Compile Include="Entidades\ORDENDETALLE.cs" />
+    <Compile Include="Entidades\PRODUCTO.cs" />
+    <Compile Include="Entidades\ROL.cs" />
+    <Compile Include="Entidades\SOCIO.cs" />
+    <Compile Include="Entidades\TIPOPRODUCTO.cs" />
+    <Compile Include="Entidades\TIPOSOCIO.cs" />
+    <Compile Include="Entidades\USUARIO.cs" />
+    <Compile Include="Entidades\USUARIO_ROL.cs" />
+    <Compile Include="Entidades\ZONA.cs" />
+    <Compile Include="Interfaces\IBODEGA.cs" />
+    <Compile Include="Interfaces\ICARGO.cs" />
+    <Compile Include="Interfaces\ICIUDAD.cs" />
+    <Compile Include="Interfaces\IEMPLEADO.cs" />
+    <Compile Include="Interfaces\IINVENTARIO.cs" />
+    <Compile Include="Interfaces\ILISTAMATERIALES.cs" />
+    <Compile Include="Interfaces\ILISTAMATERIALESDETALLE.cs" />
+    <Compile Include="Interfaces\ILISTAPRECIOS.cs" />
+    <Compile Include="Interfaces\ILISTAPRECIOSDETALLE.cs" />
+    <Compile Include="Interfaces\IMEDIDAPRODUCTO.cs" />
+    <Compile Include="Interfaces\IMESA.cs" />
+    <Compile Include="Interfaces\IORDEN.cs" />
+    <Compile Include="Interfaces\IORDENDETALLE.cs" />
+    <Compile Include="Interfaces\IPRODUCTO.cs" />
+    <Compile Include="Interfaces\IROL.cs" />
+    <Compile Include="Interfaces\ISOCIO.cs" />
+    <Compile Include="Interfaces\ITIPOPRODUCTO.cs" />
+    <Compile Include="Interfaces\ITIPOSOCIO.cs" />
+    <Compile Include="Interfaces\IUSUARIO.cs" />
+    <Compile Include="Interfaces\IUSUARIO_ROL.cs" />
+    <Compile Include="Interfaces\IZONA.cs" />
+    <Compile Include="Logica\LBODEGA.cs" />
+    <Compile Include="Logica\LCARGO.cs" />
+    <Compile Include="Logica\LCIUDAD.cs" />
+    <Compile Include="Logica\LEMPLEADO.cs" />
+    <Compile Include="Logica\LINVENTARIO.cs" />
+    <Compile Include="Logica\LLISTAMATERIALES.cs" />
+    <Compile Include="Logica\LLISTAMATERIALESDETALLE.cs" />
+    <Compile Include="Logica\LLISTAPRECIOS.cs" />
+    <Compile Include="Logica\LLISTAPRECIOSDETALLE.cs" />
+    <Compile Include="Logica\LMEDIDAPRODUCTO.cs" />
+    <Compile Include="Logica\LMESA.cs" />
+    <Compile Include="Logica\LORDEN.cs" />
+    <Compile Include="Logica\LORDENDETALLE.cs" />
+    <Compile Include="Logica\LPRODUCTO.cs" />
+    <Compile Include="Logica\LROL.cs" />
+    <Compile Include="Logica\LSOCIO.cs" />
+    <Compile Include="Logica\LTIPOPRODUCTO.cs" />
+    <Compile Include="Logica\LTIPOSOCIO.cs" />
+    <Compile Include="Logica\LUSUARIO.cs" />
+    <Compile Include="Logica\LUSUARIO_ROL.cs" />
+    <Compile Include="Logica\LZONA.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Data\Datos.csproj">
+      <Project>{cbf11675-fdab-4908-938e-073e439ad721}</Project>
+      <Name>Datos</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

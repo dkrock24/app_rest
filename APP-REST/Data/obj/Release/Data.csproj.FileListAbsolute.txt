@@ -1,0 +1,4 @@
+D:\Proyectos\SGI\Data\bin\Release\Data.dll
+D:\Proyectos\SGI\Data\bin\Release\Data.pdb
+D:\Proyectos\SGI\Data\obj\Release\Data.dll
+D:\Proyectos\SGI\Data\obj\Release\Data.pdb

@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Datos", "Data\Datos.csproj", "{CBF11675-FDAB-4908-938E-073E439AD721}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{B7710AA4-3A3B-4EF3-9872-36771156D3C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APP-REST", "APP-REST\APP-REST.csproj", "{EBE9B6F2-101C-46B3-A3BF-A1136D38F672}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CBF11675-FDAB-4908-938E-073E439AD721}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBF11675-FDAB-4908-938E-073E439AD721}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBF11675-FDAB-4908-938E-073E439AD721}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBF11675-FDAB-4908-938E-073E439AD721}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7710AA4-3A3B-4EF3-9872-36771156D3C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7710AA4-3A3B-4EF3-9872-36771156D3C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7710AA4-3A3B-4EF3-9872-36771156D3C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7710AA4-3A3B-4EF3-9872-36771156D3C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBE9B6F2-101C-46B3-A3BF-A1136D38F672}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBE9B6F2-101C-46B3-A3BF-A1136D38F672}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBE9B6F2-101C-46B3-A3BF-A1136D38F672}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBE9B6F2-101C-46B3-A3BF-A1136D38F672}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
